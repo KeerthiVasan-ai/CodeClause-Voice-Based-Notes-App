@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618751637611",
+    "project_id": "voice-notes-c6f8a",
+    "storage_bucket": "voice-notes-c6f8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618751637611:android:49b59efca28ff28b20992e",
+        "android_client_info": {
+          "package_name": "com.keerthi77459.voicenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618751637611-rcrq8etu4b7cu0q98nac2p1cce93bp2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoX8S3w8UdrGbIQC7600ohhYcTL3Hv_X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618751637611-rcrq8etu4b7cu0q98nac2p1cce93bp2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

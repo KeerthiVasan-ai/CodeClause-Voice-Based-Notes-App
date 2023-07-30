@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp"
+    android:background="@color/myColor"
+    tools:context=".NotesActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/newNotesHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ebgaramondbold"
+            android:text="New Notes"
+            android:textSize="32dp"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="41dp"
+            android:id="@+id/saveNotes"
+            android:background="@drawable/ic_baseline_save_24"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:background="@drawable/border">
+
+        <EditText
+            android:id="@+id/notesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"/>
+
+        <EditText
+            android:id="@+id/notesContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Typing"
+            android:minLines="30"
+            android:gravity="top"
+            android:maxLines="100"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/voiceAssistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:borderWidth="0dp"
+        android:backgroundTint="@color/myColor"
+        android:src="@drawable/ic_baseline_keyboard_voice_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
